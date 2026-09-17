@@ -287,21 +287,13 @@ The following features can be added in future versions:
 This project is developed as a collaborative web development project.
 
 ### Contributors
-
-* Team Member 1
-* Team Member 2
-* Team Member 3
-* Team Member 4
+Prasanna singh
+Pranjal sharma 
+Pranay amar
 
 ## 📄 License
 
 This project is developed for educational/project purposes.
-
-## 📞 Contact
-
-For questions, suggestions, or contributions, please contact the project development team.
-
----
 
 **Video Conferencing Web Application**
 *Real-time communication through the web using modern web technologies.*
