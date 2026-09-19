@@ -288,7 +288,9 @@ This project is developed as a collaborative web development project.
 
 ### Contributors
 Prasanna singh
+
 Pranjal sharma 
+
 Pranay amar
 
 ## 📄 License
