@@ -12,7 +12,6 @@ import StopScreenShareIcon from "@mui/icons-material/StopScreenShare";
 import ChatIcon from "@mui/icons-material/Chat";
 import withAuth from "../utils/withAuth";
 
-const SERVER_URL = "http://localhost:5000";
 
 const peerConfigConnections = {
   iceServers: [
@@ -331,7 +330,7 @@ function Video() {
 
   // Establish Socket.IO connection and join this meeting room.
   const connectToSocketServer = () => {
-    const socket = io(SERVER_URL, {
+    const socket = io(import.meta.env.VITE_SERVER_URL, {
       autoConnect: false,
       reconnection: true,
       auth: {

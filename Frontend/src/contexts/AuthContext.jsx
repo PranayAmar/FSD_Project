@@ -5,7 +5,7 @@ import { createContext, useContext, useState } from "react";
 export const AuthContext = createContext({});
 
 const client = axios.create({
-  baseURL: "http://localhost:5000/users",
+  baseURL: `${import.meta.env.VITE_API_URL}/users`,
 });
 
 export const AuthProvider = ({ children }) => {

@@ -34,7 +34,7 @@ function Home() {
 
     const newMeetingCode = crypto.randomUUID();
 
-    const socket = io("http://localhost:5000", {
+    const socket = io(import.meta.env.VITE_SERVER_URL, {
       autoConnect: false,
       auth: { token },
     });

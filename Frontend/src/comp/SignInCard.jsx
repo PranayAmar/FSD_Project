@@ -193,7 +193,7 @@ export default function SignIn({ setFormState, handleAuth, loading, error }) {
           fullWidth
           variant="outlined"
           onClick={() => {
-            window.location.href = "http://localhost:5000/auth/google";
+            window.location.href = `${import.meta.env.VITE_API_URL}/auth/google`;
           }}
           startIcon={<GoogleIcon />}
         >
