@@ -8,6 +8,7 @@ import { dataDisplayCustomizations } from './customizations/DataDisplay.jsx';
 import { feedbackCustomizations } from './customizations/Feedback.jsx';
 import { navigationCustomizations } from './customizations/Navigation.jsx';
 import { surfacesCustomizations } from './customizations/Surfaces.jsx';
+import { colorSchemes, typography, shadows, shape } from './themePrimitives';
 
 
 function AppTheme(props) {
